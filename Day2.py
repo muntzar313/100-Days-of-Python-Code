@@ -16,4 +16,4 @@ pay= tip_percent/100 *total_bill + total_bill
 final_pay= round(pay/total_split,2)
 print(f"Each person should pay : $ {final_pay}")
 
-link : https://replit.com/@muntzar313/tip-calculator-start#main.py
+link: https://replit.com/@muntzar313/tip-calculator-start
