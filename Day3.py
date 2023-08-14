@@ -13,5 +13,5 @@ elif year % 5 == 0 :
 else:
     print("Not leap year.")
 
-# Flowchart 
-![Image Alt Text](Leap_year.png)
+
+
