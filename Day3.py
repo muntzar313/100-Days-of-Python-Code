@@ -38,25 +38,25 @@ bill = 0
 
 if size == 'S':
     bill+=15
-    # print("Your final bill is: $15")
+    
 elif size=='M':
     bill+=20
-    # print("Your final bill is: $20")
+    
 elif size=='L':
     bill+=25
-    # print("Your final bill is: $25")
+    
 
 if add_pepperoni=='Y':
     if size=='S':
         bill= bill +2
     else:
         bill= bill + 3
-# print(f"your final bill is: {bill}")
+
 
 if extra_cheese=='Y':
     bill+=1
 
 print(f"Your final bill is: ${bill}")
 
-# else:
-#     print(f"Your final bill is : ${bill}")
+
+
