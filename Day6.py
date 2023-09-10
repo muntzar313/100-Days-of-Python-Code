@@ -75,9 +75,40 @@ while not at_goal():
     else:
         move()
             
-
-
     passing()
+
+#### Huddle 4
+
+def move_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+    
+
+def passing():
+    turn_left()
+    while wall_on_right():
+        move()
+    move_right()
+    move()
+    move_right()
+    
+    while front_is_clear():
+        move()
+    turn_left()
+
+while not at_goal():
+    if wall_in_front():
+        passing()
+    else:
+        move()
+            
+    
+
+            
+
+
 
 
 
