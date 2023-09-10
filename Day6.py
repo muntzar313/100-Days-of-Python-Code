@@ -1,5 +1,4 @@
-# Using For Loop
-
+# Using For Loop Hurdle 1
 def move_right():
     turn_left()
     turn_left()
@@ -26,7 +25,7 @@ def passing():
 for step in range(6):
     passing()
   
-## Using WHile Loop
+## Using While Loop Hurdle 2
 def move_right():
     turn_left()
     turn_left()
@@ -51,6 +50,33 @@ def passing():
     turn_left()
 
 while not at_goal():
+
+
+## Hurdle 3
+def move_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+
+def passing():
+    turn_left()
+    move()
+    move_right()
+    move()
+    move_right()
+    move()
+    turn_left()
+
+while not at_goal():
+    if wall_in_front():
+        passing()
+        
+    else:
+        move()
+            
+
+
     passing()
 
 
